@@ -1,0 +1,13 @@
+# Disable PHP Execution
+php_flag engine off
+
+# Disable CGI Execution
+Options -ExecCGI
+
+# Prevent directory listing
+Options -Indexes
+
+# Restrict access to specific safe file types (optional, but good for defense-in-depth)
+<FilesMatch "(?i)\.(php|php3|php4|php5|phtml|pl|py|jsp|asp|htm|html|shtml|sh|cgi)$">
+    Require all denied
+</FilesMatch>
