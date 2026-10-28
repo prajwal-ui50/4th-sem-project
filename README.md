@@ -160,7 +160,7 @@ Add your screenshots to a `screenshots/` folder and link them like this:
 
 **Prajwal Lamichhane**
 BCA, Hetauda School of Management and Social Sciences, Tribhuvan University
-Supervisor: Pratikshya Gartaula
+Supervisor: Gunjan Gupta
 
 GitHub: [@prajwal-ui50](https://github.com/prajwal-ui50)
 
